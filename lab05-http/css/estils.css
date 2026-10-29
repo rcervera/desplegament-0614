@@ -1,0 +1,102 @@
+/* estils.css - Laboratori 5: Protocol HTTP amb Nginx
+   Full d'estils compartit per totes les pàgines del laboratori. */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1a2230;
+  max-width: 640px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Les pàgines de formulari són més estretes */
+body.estreta {
+  max-width: 480px;
+}
+
+body.centrat {
+  text-align: center;
+}
+
+h1 {
+  color: #0d3c4d;
+  text-align: center;
+}
+
+h2 {
+  color: #0d3c4d;
+  font-size: 1.05rem;
+}
+
+p {
+  color: #57606f;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 16px;
+  color: #1c6e8c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #dbe0e6;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+/* Taules (perfil i dades rebudes) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+td {
+  padding: 10px 6px;
+  border-bottom: 1px solid #eaeff2;
+}
+
+td:first-child {
+  font-weight: bold;
+  color: #57606f;
+  width: 160px;
+}
+
+/* Formularis */
+label {
+  display: block;
+  font-weight: bold;
+  color: #57606f;
+  margin-top: 14px;
+  margin-bottom: 4px;
+}
+
+input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #dbe0e6;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #1c6e8c;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}

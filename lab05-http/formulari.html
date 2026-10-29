@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <title>Formulari</title>
+  <link rel="stylesheet" href="/css/estils.css">
+</head>
+<body class="estreta">
+  <h1>Formularis de contacte</h1>
+
+  <div class="card">
+    <h2>1. Formulari amb GET</h2>
+    <form method="GET" action="/formulari-resultat">
+      <label for="nom-get">Nom</label>
+      <input type="text" id="nom-get" name="nom" required>
+      <label for="email-get">Email</label>
+      <input type="email" id="email-get" name="email" required>
+      <label for="missatge-get">Missatge</label>
+      <input type="text" id="missatge-get" name="missatge">
+      <button type="submit">Envia amb GET</button>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>2. Formulari amb POST</h2>
+    <form method="POST" action="/formulari-post-info">
+      <label for="nom-post">Nom</label>
+      <input type="text" id="nom-post" name="nom" required>
+      <label for="email-post">Email</label>
+      <input type="email" id="email-post" name="email" required>
+      <label for="missatge-post">Missatge</label>
+      <input type="text" id="missatge-post" name="missatge">
+      <button type="submit">Envia amb POST</button>
+    </form>
+  </div>
+
+  <a href="/index.html">← Tornar a l'inici</a>
+</body>
+</html>
