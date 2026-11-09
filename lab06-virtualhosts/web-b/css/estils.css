@@ -1,0 +1,81 @@
+/* estils.css - Laboratori 6: full d'estils del Lloc B
+   Cada lloc té el seu propi full d'estils dins la seva carpeta:
+   /css/estils.css es resol a partir del "root" del bloc server que respon. */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fbf3ec;
+  color: #1a2230;
+  max-width: 640px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+header {
+  background: #c0632b;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 28px 24px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 8px 0;
+  font-size: 2.4rem;
+}
+
+header p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.etiqueta {
+  display: inline-block;
+  background: #ffffff;
+  color: #7a3a12;
+  font-family: monospace;
+  font-weight: bold;
+  border-radius: 999px;
+  padding: 4px 14px;
+}
+
+h2 {
+  color: #7a3a12;
+  font-size: 1.05rem;
+  margin-top: 0;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #f0dccb;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px 6px;
+  border-bottom: 1px solid #eaeff2;
+}
+
+td:first-child {
+  font-weight: bold;
+  color: #57606f;
+  width: 160px;
+}
+
+td:last-child {
+  font-family: monospace;
+}
+
+.peu {
+  color: #57606f;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 24px;
+}

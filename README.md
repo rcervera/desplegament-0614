@@ -26,3 +26,4 @@ unzip lab.zip && cd desplegament-0614-main
 | Carpeta | Laboratori |
 |---|---|
 | [`lab05-http`](lab05-http) | Laboratori 5 · Protocol HTTP amb Nginx |
+| [`lab06-virtualhosts`](lab06-virtualhosts) | Laboratori 6 · Amfitrions virtuals (Virtual Hosts) amb Nginx |
