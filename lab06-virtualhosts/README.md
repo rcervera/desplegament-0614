@@ -3,7 +3,7 @@
 ```
 lab06-virtualhosts/
 ├── Dockerfile
-├── default.conf      # dos blocs server: web-a.local i web-b.local
+├── default.conf      # dos blocs server: web-a.local(host) i web-b.local(host)
 ├── web-a/            # contingut del Lloc A (root del primer host)
 │   ├── index.html
 │   └── css/
@@ -23,7 +23,12 @@ curl -H "Host: web-a.local" http://localhost:8095
 curl -H "Host: web-b.local" http://localhost:8095
 ```
 
-Per fer servir directament els noms de domini, afegeix a `/etc/hosts`:
+Des del navegador de l'amfitrió (amb el port 8095 reenviat a VirtualBox), sense tocar cap fitxer:
+
+- http://web-a.localhost:8095
+- http://web-b.localhost:8095
+
+Per fer servir els noms `.local`, afegeix a `/etc/hosts`:
 
 ```
 127.0.0.1 web-a.local
