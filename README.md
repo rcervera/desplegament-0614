@@ -27,3 +27,5 @@ unzip lab.zip && cd desplegament-0614-main
 |---|---|
 | [`lab05-http`](lab05-http) | Laboratori 5 · Protocol HTTP amb Nginx |
 | [`lab06-virtualhosts`](lab06-virtualhosts) | Laboratori 6 · Amfitrions virtuals (Virtual Hosts) amb Nginx |
+| [`lab07-nginx-avancat`](lab07-nginx-avancat) | Laboratori 7 · Nginx avançat: errors, memòria cau, autenticació i HTTPS |
+| [`lab09-goaccess`](lab09-goaccess) | Laboratori 9 · Gestió de logs amb GoAccess |

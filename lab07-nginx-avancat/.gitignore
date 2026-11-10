@@ -1,0 +1,8 @@
+# Secrets generats per cada alumne (apartat 3): no s'han de pujar mai a git
+.htpasswd
+ssl/
+*.key
+*.csr
+*.srl
+# Fitxers de prova de l'apartat 6.6
+*.bin

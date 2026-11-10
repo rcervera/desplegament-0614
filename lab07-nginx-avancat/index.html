@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Servidor segur - Laboratori 7</title>
+  <link rel="stylesheet" href="css/estils.css">
+</head>
+<body>
+  <header>
+    <h1>Servidor Nginx segur</h1>
+    <p>Laboratori 7 · Desplegament d'aplicacions web</p>
+  </header>
+  <main>
+    <section class="targeta">
+      <h2>Què hi pots provar</h2>
+      <ul>
+        <li><a href="/privat/">Zona privada</a>: demana usuari i contrasenya.</li>
+        <li><a href="/fitxers/">Documents</a>: llistat automàtic de la carpeta.</li>
+        <li><a href="/no-existeix">Pàgina inexistent</a>: error 404 personalitzat.</li>
+        <li><a href="/error500">Error del servidor</a>: error 500 personalitzat.</li>
+        <li><a href="https://localhost:8443/">Versió HTTPS</a>: connexió xifrada.</li>
+      </ul>
+    </section>
+    <section class="targeta">
+      <h2>Com es protegeix</h2>
+      <p>Autenticació bàsica, certificat TLS, capçaleres de seguretat i un límit d'1 MB a les pujades.</p>
+    </section>
+    <section class="targeta avis">
+      <h2>Bones pràctiques</h2>
+      <p>Fes servir sempre HTTPS, contrasenyes robustes i no comparteixis mai la clau privada (<code>server.key</code>).</p>
+    </section>
+  </main>
+  <footer>Servit per Nginx dins d'un contenidor Docker</footer>
+</body>
+</html>

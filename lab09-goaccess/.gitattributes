@@ -1,0 +1,2 @@
+# El script s'executa a la VM Linux: sempre amb finals de línia LF
+*.sh text eol=lf

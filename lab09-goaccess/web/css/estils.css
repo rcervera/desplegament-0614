@@ -1,0 +1,65 @@
+/* estils.css - Laboratori 9: servidor web monitoritzat amb GoAccess */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1a2230;
+  max-width: 640px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+header {
+  background: #0d3c4d;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 8px 0;
+}
+
+header p {
+  margin: 0;
+  color: #d6e6ec;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+nav a,
+.boto {
+  color: #1c6e8c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #dbe0e6;
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+h2 {
+  color: #0d3c4d;
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+p, li {
+  color: #57606f;
+}
+
+code {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1px 6px;
+  border-radius: 4px;
+}
